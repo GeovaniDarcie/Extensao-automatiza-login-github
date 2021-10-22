@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "github_login",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://github.com/login", "https://github.com/login?*"],
+            "css": ["style.css"],
+            "js": ["script.js"]
+        }
+    ]
+}
